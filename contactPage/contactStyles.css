@@ -1,7 +1,9 @@
-body
-{
-display: flex;
-flex-direction: column;
+
+
+html{
+    padding-left:10px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pageTitle
@@ -17,13 +19,13 @@ flex-direction: column;
 
 .pageTitle1
 {   width:100%;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-bottom: 4px;
 }
 
 .pageTitle2
 {   width:100%;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-top: 4px;
 }
 
@@ -33,8 +35,7 @@ form
     width: 40vw;
     margin-top: 0px;
     margin-left:80px;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .formDetails
@@ -42,7 +43,7 @@ form
     margin-bottom: 4px;
     margin-top: 2px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     color:rgb(192,192,192);
     border-width: 1px;
     border-color: black;
@@ -52,7 +53,7 @@ form
 .formDetailsLabel
 {
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+  
     height: 20px;
     font-weight: bold;
     padding-top: 5px;
@@ -62,7 +63,7 @@ form
 .SubjectLabel
 {
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     border-width: 1px;
     border-color: black;
     height: 25px;
@@ -74,7 +75,7 @@ form
 {
     margin-bottom: 4px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     border-width: 1px;
     border-color: black;
     border: 0;
@@ -87,7 +88,7 @@ form
     margin-top: 15px;
     margin-bottom: 6px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     height:100px;
     border-width: 1px;
     border-color: black;
@@ -101,98 +102,293 @@ form
     align-self: flex-end;
     margin-top: 10px;
     margin-bottom: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-size: 12px;
 }
 
 .aboutUsH3
 {
-    font-family: Arial, Helvetica, sans-serif;
-    
+   
     margin-left: 20px;
-    width: 50vw;
+    width: 100%;
 }
 
-.aboutUs
+.AboutUsLocationDiscription
 {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width:100vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.AboutUsDiscription1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 0px;
+    
+}
+
+.AboutUs
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+   
     justify-content: space-between;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-top:0px;
+    margin-bottom: 0px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
+}
+
+
+.Location
+{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    width: 30%;
+   
+    
+}
+
+.locationDetailsH3
+{
+width: 70%;
+}
+
+
+.map
+{
+height: 400px;
+width: 70%;
+/*align-items: left;*/
 }
 
 .NameIndividual
 {
-    width:150px;
-    height: 150px;
-    display: flex;
-    
-    
-}
-
-.location
-{
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top:10px;
-    padding-top: 0px;
-    
-    
-}
-
-.locationDetails 
-{
-    align-self:baseline;
-    padding-top: 0px;
-    margin-block-start: 0px;
-}
-
-.map
-{
-height: 100px;
-}
-
-.Name
-{
-    color:white;
-    position: absolute;
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration: none;  
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    padding-left: 20px;
+    width: 150px;
+    height: 150px
     
 }
 
 .Pic
 {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     color:blue;
-    position: relative;    
-    border-radius: 90px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    border: solid 5px #0E2F7E;
+    
 }
+
+
+.locationDetails 
+{
+    align-self:baseline;
+    padding-top: 0px;
+    line-height: 150%;
+    /*margin-block-start: 0px;*/
+}
+
+
+
+
+
+.Name
+{
+    color:rgb(192,192,192);
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;  
+    
+    transform: translate(30%,-540%);
+    
+    
+}
+
+
 
 .discription
 {
-    width: 50vw;
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
     font-size: 14px;
     margin-left: 20px;
+    margin-top: 120px;
     text-align: justify;
     text-justify: inter-character;
     line-height: 170%;
+    /*clear:both;*/
 }
 
+.footer-section {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #0E2F7E;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin:0px;
+  }
+  
+  .foot-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 20px 5px 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .foot-note {
+    margin-right: 20px;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .foot-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  @media (max-width: 800px) {
+    .pageTitle1
+    {
+        font-size: 18px;
+    }
+
+    .pageTitle2
+    {
+        font-size: 19px;
+    }
+
+    .button
+    {
+        width: 60vw;
+        
+    }
+
+    .form
+    {
+        width: 60vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .locationDetails
+    {
+        font-size: 15px;
+    }
+
+    .discription
+    {
+        width: 80vw;
+    }
+
+    .AboutUsLocationDiscription
+    {
+    flex-direction: column;
+    width:100%;
+    }
+
+    .Pic
+    {
+        width: 90px;
+        height: 90px;
+        
+    }
+
+
+    .NameIndividual
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 32%;
+        height: 32%;
+        position: initial;
+    }
+
+    .Name
+    {
+        
+        /*transform: translate(30%,540%);*/
+        font-size: 11px;
+        text-align: center;
+        position: initial;
+
+    }
+
+    .Location
+    {
+        width:100%;
+        align-items: center;
+        text-align:center;
+    }
+
+    .map
+    {
+        height: 200px;
+    }
+
+    .locationDetails
+    {
+        width:100%;
+        text-align: center;
+    }
+
+    .AboutUsDiscription1
+    {
+    width: 100%;
+    
+    }
+
+    .aboutUsH3
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .discription
+    {
+        margin-top:15px;
+        width: 100%;
+        text-align: center;
+    }
+
+  }
+
+  
 
 
 
