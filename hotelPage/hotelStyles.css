@@ -23,8 +23,8 @@
 }
 
 .main-title {
-  font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
   font-weight: bold;
   margin-left: 50px;
   color: rgb(223, 161, 5);;
@@ -69,8 +69,8 @@ a {
 
 .hotel-card {
   margin: 20px;
-  width: 260px;
-  height: 350px;
+  width: 300px;
+  height: 320px;
   border: solid 4px #0E2F7E;
   border-radius: 10px;
   display:flex;
