@@ -59,8 +59,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -69,22 +69,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .msitem1, .msitem2, .msitem3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .msitem1:hover, .msitem2:hover, .msitem3:hover{
@@ -101,26 +101,19 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-.pagetitle{
-    font-size: 24px;
-    font-weight: bolder;
-    width: 75%;
-    color: #0E2F7E;
-}
-
 .museums-section{
     display: flex;
     flex-direction: column;
 }
 
-/*Francesinhas*/
+/*Monumentos*/
 
 #monumentos{
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -129,22 +122,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .mn1, .mn2, .mn3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .mn1:hover, .mn2:hover, .mn3:hover{
@@ -165,8 +158,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -175,22 +168,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .mrd1, .mrd2, .mrd3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .mrd1:hover, .mrd2:hover, .mrd3:hover{
@@ -213,7 +206,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 20px;
@@ -221,14 +214,15 @@ nav ul li a:hover {
 
 .shows1, .shows2, .shows3 {
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .shows1:hover, .shows2:hover, .shows3:hover{
@@ -239,8 +233,8 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
-    font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    font-family: 'Raleway', sans-serif;;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -291,9 +285,19 @@ nav ul li a:hover {
   }
   
   .foot-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-left: 5px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .foot-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
   }
   
   /*Placelink && line && pagetitle*/
@@ -306,7 +310,7 @@ nav ul li a:hover {
 }
 .line {
     border: 2px solid rgb(242, 242, 242);
-    width: 85%;
+    width: 75%;
     margin: auto;
   }
 .pagetitle{

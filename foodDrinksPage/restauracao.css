@@ -68,22 +68,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .item1, .item2, .item3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .item1:hover, .item2:hover, .item3:hover{
@@ -113,7 +113,7 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #0E2F7E;
     font-family: 'Raleway', sans-serif;
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -122,7 +122,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 20px;
@@ -130,14 +130,15 @@ nav ul li a:hover {
 
 .fr1, .fr2, .fr3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .fr1:hover, .fr2:hover, .fr3:hover{
@@ -159,7 +160,7 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #0E2F7E;
     font-family: 'Raleway', sans-serif;
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -168,7 +169,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 20px;
@@ -176,14 +177,15 @@ nav ul li a:hover {
 
 .drinks1, .drinks2, .drinks3{
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .drinks1:hover, .drinks2:hover, .drinks3:hover{
@@ -206,22 +208,22 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .rec1, .rec2, .rec3 {
     margin: 10px;
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 460px;
     border: solid 5px #0E2F7E;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .rec1:hover, .rec2:hover, .rec3:hover{
@@ -233,7 +235,7 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #0E2F7E;
     font-family: 'Raleway', sans-serif;
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding-top: 50px;
 }
@@ -284,14 +286,29 @@ nav ul li a:hover {
   }
   
   .foot-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-left: 5px;
+    background-color: white;
+    border-radius: 5px;
   }
   
+  .foot-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+  }
+ 
   /*Placelink && line && Pagetitle*/
-
-  .placelink{
+  
+  @media (max-width: 760px) {
+    .banner-text {
+      font-size: 30px;
+    }
+  }
+.placelink{
     font-size: 15px;
     padding: 10px;
     font-weight: bold;
@@ -309,9 +326,3 @@ nav ul li a:hover {
     margin-left: 30px;
     color: rgb(223, 161, 5);
     padding-top: 40px;
-  
-  @media (max-width: 760px) {
-    .banner-text {
-      font-size: 30px;
-    }
-  }
