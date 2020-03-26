@@ -1,9 +1,15 @@
 
 
+<<<<<<< HEAD
+body{
+    margin:0px;
+    font-family: ‘Noto Sans TC’, sans-serif;
+=======
 html{
     padding-left:10px;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+>>>>>>> master
 }
 
 .pageTitle
@@ -17,24 +23,45 @@ html{
 
 }
 
+.pageTitle0
+{   width:100%;
+    margin-bottom: 4px;
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
 .pageTitle1
 {   width:100%;
+<<<<<<< HEAD
+=======
     
+>>>>>>> master
     margin-bottom: 4px;
 }
 
 .pageTitle2
 {   width:100%;
+<<<<<<< HEAD
+=======
     
+>>>>>>> master
     margin-top: 4px;
 }
 
 form
 {
     display: grid;
-    width: 40vw;
+    width: 60vw;
     margin-top: 0px;
+<<<<<<< HEAD
+    padding-left:20%;
+    padding-right:20%;
+    
+=======
     margin-left:80px;
+>>>>>>> master
     
 }
 
@@ -43,10 +70,13 @@ form
     margin-bottom: 4px;
     margin-top: 2px;
     font-size: 11px;
+<<<<<<< HEAD
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
+=======
     
+>>>>>>> master
     color:rgb(192,192,192);
-    border-width: 1px;
-    border-color: black;
     height: 25px;
 }
 
@@ -75,11 +105,17 @@ form
 {
     margin-bottom: 4px;
     font-size: 11px;
+<<<<<<< HEAD
+    border: solid 3px #0E2F7E;
+    border-radius: 20px;
+    color:rgb(192,192,192);
+=======
     
     border-width: 1px;
     border-color: black;
     border: 0;
     outline: 1px solid black;
+>>>>>>> master
     height: 25px;
 }
 
@@ -90,8 +126,8 @@ form
     font-size: 11px;
     
     height:100px;
-    border-width: 1px;
-    border-color: black;
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
 }
 
 .button
@@ -99,10 +135,15 @@ form
     background-color: rgb(192,192,192);
     height: 30px;
     width: 30%;
-    align-self: flex-end;
+    align-self: center;
     margin-top: 10px;
     margin-bottom: 4px;
+<<<<<<< HEAD
+    border-radius: 7px;
+    border: solid 3px #0E2F7E;
+=======
    
+>>>>>>> master
     font-size: 12px;
 }
 
@@ -111,6 +152,105 @@ form
    
     margin-left: 20px;
     width: 100%;
+<<<<<<< HEAD
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.AboutUsLocationDiscription
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.AboutUsDiscription1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 0px;
+    
+}
+
+.AboutUs
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 20px;
+   
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+}
+
+
+.Location
+{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    width: 40%;
+    justify-content: start;
+    padding-left:70px;
+    
+   
+    
+}
+
+.locationDetailsH3
+{
+    width: 70%;
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+.map
+{
+height: 500px;
+width: 100%;
+border-radius: 7px;
+    border: solid 5px #0E2F7E;
+/*position: absolute;*/
+
+/*align-items: left;*/
+}
+
+
+.NameIndividual
+{
+    width: 150px;
+    height: 150px
+
+    
+}
+
+.Pic
+{
+    width: 150px;
+    height: 150px;
+    color:blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    border: solid 5px #0E2F7E;
+    
+}
+
+=======
 }
 
 .AboutUsLocationDiscription
@@ -191,12 +331,17 @@ width: 70%;
     
 }
 
+>>>>>>> master
 
 .locationDetails 
 {
     align-self:baseline;
     padding-top: 0px;
     line-height: 150%;
+    font-size: 14px;
+    padding-top:10px;
+    text-align:center;
+    width:100%
     /*margin-block-start: 0px;*/
 }
 
@@ -211,11 +356,10 @@ width: 70%;
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;  
-    
     transform: translate(30%,-540%);
-    
-    
 }
+
+
 
 
 
@@ -224,7 +368,7 @@ width: 70%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+    padding-left: 20px;
     font-size: 14px;
     margin-left: 20px;
     margin-top: 120px;
@@ -244,7 +388,6 @@ width: 70%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    font-family: 'Noto Sans TC', sans-serif;
   }
   
   .footer {
@@ -254,7 +397,6 @@ width: 70%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Noto Sans TC', sans-serif;
     margin:0px;
   }
   
@@ -263,44 +405,67 @@ width: 70%;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 5px 20px 5px 10px;
-    font-family: 'Noto Sans TC', sans-serif;
   }
   
   .foot-note {
     margin-right: 20px;
     color: white;
-    font-family: 'Noto Sans TC', sans-serif;
   }
   
   .foot-icon {
     width: 30px;
     height: 30px;
     margin-left: 5px;
-    font-family: 'Noto Sans TC', sans-serif;
   }
   
   @media (max-width: 800px) {
+    
+    .pageTitle
+    {
+        margin-left:0px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    
+    .pageTitle0
+    {
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
+    }
+    
+    
     .pageTitle1
     {
         font-size: 18px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
     }
 
     .pageTitle2
     {
-        font-size: 19px;
+        font-size: 18px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
     }
+    
 
     .button
     {
         width: 60vw;
-        
     }
 
     .form
     {
         width: 60vw;
-        margin-left: 20vw;
-        margin-right: 20vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
     }
 
     .locationDetails
@@ -323,6 +488,7 @@ width: 70%;
     {
         width: 90px;
         height: 90px;
+        hover:
         
     }
 
@@ -331,20 +497,21 @@ width: 70%;
     {
         display:flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: flex-end;
         width: 32%;
-        height: 32%;
-        position: initial;
+        height: 40%;
+        position: unset;
+        
     }
 
     .Name
     {
-        
-        /*transform: translate(30%,540%);*/
         font-size: 11px;
         text-align: center;
-        position: initial;
-
+        position: unset;
+        transform: translate(0%,0%);
+        width:90px;
+        padding-top: 10px;
     }
 
     .Location
@@ -352,17 +519,20 @@ width: 70%;
         width:100%;
         align-items: center;
         text-align:center;
+        padding-left: 15px;
     }
 
     .map
     {
         height: 200px;
+        width:90%;
     }
 
     .locationDetails
     {
         width:100%;
         text-align: center;
+        
     }
 
     .AboutUsDiscription1
@@ -384,6 +554,12 @@ width: 70%;
         margin-top:15px;
         width: 100%;
         text-align: center;
+        padding-left:0px;
+    }
+
+    .locationDetailsH3
+    {
+        font-size:20px;
     }
 
   }
