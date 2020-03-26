@@ -5,7 +5,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 body{
     margin: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -50,14 +49,15 @@ nav ul li a:hover {
     transition: .5s;
 }
 
-/* Restaurants */
-#restaurants{
+/* Museums */
+
+#museums{
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
 }
 
-.restaurants{
+.museums{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.item1, .item2, .item3{
+.msitem1, .msitem2, .msitem3{
     margin: 10px;
     width: 350px;
     height: 400px;
@@ -78,16 +78,16 @@ nav ul li a:hover {
     position: relative;
 }
 
-.item1:hover, .item2:hover, .item3:hover{
+.msitem1:hover, .msitem2:hover, .msitem3:hover{
     border: solid 4px rgb(223, 161, 5);
 }
 
-.image1, .image2, .image3{
+.msimage1, .msimage2, .msimage3{
     width: 350px;
     height: 250px;
 }
 
-.item1txt, .item2txt, .item3txt {
+.msitem1txt, .msitem2txt, .msitem3txt {
     font-size: 15px;
     padding: 10px;
 }
@@ -99,19 +99,20 @@ nav ul li a:hover {
     color: #0E2F7E;
 }
 
-.restaurants-section{
+.museums-section{
     display: flex;
     flex-direction: column;
 }
 
 /*Francesinhas*/
-#francesinhas{
+
+#monumentos{
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
 }
 
-.francesinhas{
+.monumentos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,7 +121,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.fr1, .fr2, .fr3{
+.mn1, .mn2, .mn3{
     margin: 10px;
     width: 350px;
     height: 400px;
@@ -132,27 +133,27 @@ nav ul li a:hover {
     position: relative;
 }
 
-.fr1:hover, .fr2:hover, .fr3:hover{
+.mn1:hover, .mn2:hover, .mn3:hover{
     border: solid 4px rgb(223, 161, 5)
 }
 
-.frimage1, .frimage2, .frimage3{
+.mnimage1, .mnimage2, .mnimage3{
     width: 350px;
     height: 250px;
 }
-.fr1txt, .fr2txt, .fr3txt{
+.mn1txt, .mn2txt, .mn3txt{
     font-size: 15px;
     padding: 10px;
 }
-/* Drinks*/
+/* Miradouros*/
 
-#drinks{
+#miradouros{
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
 }
 
-.drinks{
+.miradouros{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -161,7 +162,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.drinks1, .drinks2, .drinks3{
+.mrd1, .mrd2, .mrd3{
     margin: 10px;
     width: 350px;
     height: 400px;
@@ -173,23 +174,23 @@ nav ul li a:hover {
     position: relative;
 }
 
-.drinks1:hover, .drinks2:hover, .drinks3:hover{
+.mrd1:hover, .mrd2:hover, .mrd3:hover{
     border: solid 4px rgb(223, 161, 5);
 }
 
-.image4, .image5, .image6{
+.mrdimage1, .mrdimage2, .mrdimage3{
     width: 350px;
     height: 250px;
 }
 
-.drinks1txt, .drinks2txt, .drinks3txt{
+.mrd1txt, .mrd2txt, .mrd3txt{
     font-size: 15px;
     padding: 10px;
 }
 
-/* Recomendations */ 
+/*Shows*/ 
 
-.recomendations{
+.shows{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -198,7 +199,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.rec1, .rec2, .rec3 {
+.shows1, .shows2, .shows3 {
     margin: 10px;
     width: 350px;
     height: 400px;
@@ -210,22 +211,22 @@ nav ul li a:hover {
     position: relative;
 }
 
-.rec1:hover, .rec2:hover, .rec3:hover{
+.shows1:hover, .shows2:hover, .shows3:hover{
     border: solid 4px rgb(223, 161, 5);
 }
 
-#recomendations{
+#shows{
     font-size: 24px;
     font-weight: bolder;
     color: #0E2F7E;
 }
 
-.rec1txt, .rec2txt, .rec3txt{
+.shows1txt, .shows2txt, .shows3txt{
     font-size: 15px;
     padding: 10px;
 }
 
-.image7, .image8, .image9{
+.showsimage1, .showsimage2, .showsimage3{
     width: 350px;
     height: 250px;
 }
