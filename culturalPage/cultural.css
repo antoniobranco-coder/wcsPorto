@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -6,52 +6,52 @@
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
 }
-body{
-    margin: 2em;
-}
 
-/*navbar*/
+
+/* NAVBAR */
 
 .navbar {
-    background: darkblue;
-    height: 50px;
+    background: #0E2F7E;
     width: 100%;
-}
-
-.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+  }
+  
+  .logo {
     color: white;
     font-size: 30px;
-    line-height: 50px;
-    padding: 0 5px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 15px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 50px;
-    margin: 0 5px;
-}
-
-nav ul li a{
+    margin-left: 10px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .buttons {
+    padding: 5px 15px;
     color: white;
-    font-size: 17px;
+    border-radius: 5px;
     text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 3px;
-}
-
-nav ul li a:hover {
+  }
+  
+  .buttons:hover  {
     background: cornflowerblue;
     transition: .5s;
-}
-
-.cultlife{
-    background-color: cornflowerblue;
-}
+  }
+  
 
 /* Museums */
 
@@ -62,7 +62,7 @@ nav ul li a:hover {
     font-family: 'Raleway', sans-serif;
     width: 75%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .museums{
@@ -255,7 +255,7 @@ nav ul li a:hover {
     width: 100%;
     padding: 20px;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #0E2F7E;
     color: white;
     display: flex;
@@ -313,11 +313,11 @@ nav ul li a:hover {
     width: 75%;
     margin: auto;
   }
-.pagetitle{
+.pagetitle {
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 70px;
     color: rgb(223, 161, 5);
     padding-top: 40px;
 }
@@ -325,5 +325,9 @@ nav ul li a:hover {
   @media (max-width: 760px) {
     .banner-text {
       font-size: 30px;
+    }
+
+    .buttons-div {
+        flex-direction: column;
     }
   }

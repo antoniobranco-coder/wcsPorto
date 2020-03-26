@@ -7,13 +7,52 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-body{
-    margin: 2em;
-}
-
 /*navbar*/
 
 .navbar {
+    background: #0E2F7E;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .buttons {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .buttons:hover  {
+    background: cornflowerblue;
+    transition: .5s;
+  }
+
+
+/* .navbar {
     background: darkblue;
     height: 50px;
     width: 100%;
@@ -51,7 +90,7 @@ nav ul li a:hover {
 }
 .restlife{
     background-color: cornflowerblue;
-}
+} */
 
 /* Restaurants */
 
@@ -60,7 +99,7 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #0E2F7E;
     font-family: 'Raleway', sans-serif;
-    width: 90%;
+    width: 75%;
     margin: auto;
 }
 
@@ -160,7 +199,7 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #0E2F7E;
     font-family: 'Raleway', sans-serif;
-    width: 75%;
+    width: 80%;
     margin: auto;
     padding-top: 50px;
 }
@@ -256,7 +295,7 @@ nav ul li a:hover {
     width: 100%;
     padding: 20px;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #0E2F7E;
     color: white;
     display: flex;
@@ -303,26 +342,36 @@ nav ul li a:hover {
  
   /*Placelink && line && Pagetitle*/
   
-  @media (max-width: 760px) {
+  
+@media (max-width: 760px) {
     .banner-text {
       font-size: 30px;
     }
-  }
+  
+    .buttons-div {
+      flex-direction: column;
+    }
+}
+
+
 .placelink{
     font-size: 15px;
     padding: 10px;
     font-weight: bold;
     color: darkblue;
 }
+
 .line {
     border: 2px solid rgb(242, 242, 242);
-    width: 90%;
+    width: 75%;
     margin: auto;
-  }
-.pagetitle{
+}
+
+#foodanddrinks {
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 70px;
     color: rgb(223, 161, 5);
     padding-top: 40px;
+}
