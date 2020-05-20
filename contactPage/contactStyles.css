@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap");
+
+body {
+    margin:0px;
+    font-family: ‘Noto Sans TC’, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: #0E2F7E;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px 12px 15px;
+    font-family: ‘Noto Sans TC’, sans-serif;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .buttons {
+    padding: 7px 15px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .buttons:hover  {
+    background: cornflowerblue;
+    transition: .5s;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.pageTitle
+{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left:20px;
+    margin: auto;
+}
+
+.pageTitle0
+{   width:100%;
+    margin-bottom: 4px;
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.pageTitle1
+{   width:100%;
+    margin-bottom: 4px;
+    margin-left: 70px;
+}
+
+.pageTitle2
+{   width:100%;
+    margin-top: 4px;
+    margin-left: 70px;
+}
+
+form
+{
+    display: grid;
+    width: 50vw;
+    margin-top: 0px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.formDetails
+{
+    margin-bottom: 4px;
+    margin-top: 2px;
+    font-size: 11px;
+    border-radius: 7px;
+    border: solid 2px #0E2F7E;
+    color:rgb(192,192,192);
+    height: 25px;
+}
+
+.formDetailsLabel
+{
+    font-size: 14px;
+    height: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    
+}
+
+.SubjectLabel
+{
+    font-size: 14px;
+    border-width: 1px;
+    border-color: black;
+    height: 25px;
+    font-weight: bold;
+    padding-top: 5px; 
+}
+
+.Subject
+{
+    margin-bottom: 4px;
+    font-size: 11px;
+    border: solid 2px #0E2F7E;
+    border-radius: 20px;
+    color:rgb(192,192,192);
+    height: 30px;
+}
+
+.messageArea
+{
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 11px;
+    height:100px;
+    border-radius: 7px;
+    border: solid 2px #0E2F7E;
+}
+
+.button
+{
+    background-color: rgb(192,192,192);
+    height: 30px;
+    width: 20%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    border: solid 2px #0E2F7E;
+    font-size: 12px;
+}
+
+.aboutUsH3
+{
+   
+    margin-left: 20px;
+    width: 100%;
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.AboutUsLocationDiscription
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.AboutUsDiscription1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 0px;
+    
+}
+
+.AboutUs
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 20px;
+   
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+}
+
+
+.Location
+{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    width: 40%;
+    justify-content: start;
+    padding-left:70px;
+    
+   
+    
+}
+
+.locationDetailsH3
+{
+    width: 70%;
+    color: rgb(223, 161, 5);
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+.map
+{
+height: 500px;
+width: 100%;
+border-radius: 7px;
+    border: solid 5px #0E2F7E;
+/*position: absolute;*/
+
+/*align-items: left;*/
+}
+
+
+.NameIndividual
+{
+    width: 150px;
+    height: 150px
+
+    
+}
+
+.Pic
+{
+    width: 150px;
+    height: 150px;
+    color:blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    border: solid 5px #0E2F7E;
+    
+}
+
+
+.locationDetails 
+{
+    align-self:baseline;
+    padding-top: 0px;
+    line-height: 150%;
+    font-size: 14px;
+    padding-top:10px;
+    text-align:center;
+    width:100%
+    /*margin-block-start: 0px;*/
+}
+
+
+
+
+
+.Name
+{
+    color:rgb(192,192,192);
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;  
+    transform: translate(30%,-540%);
+}
+
+
+
+
+
+.discription
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 120px;
+    text-align: justify;
+    text-justify: inter-character;
+    line-height: 170%;
+    /*clear:both;*/
+}
+
+.footer-section {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #0E2F7E;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .foot-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 20px 5px 10px;
+  }
+  
+  .foot-note {
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .foot-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .foot-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+  }
+
+
+  @media (max-width: 800px) {
+
+    .buttons-div {
+        flex-direction: column;
+    }
+    
+    .pageTitle
+    {
+        margin-left:0px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    
+    .pageTitle0
+    {
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+    }
+    
+    
+    .pageTitle1
+    {
+        font-size: 20px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
+    }
+
+    .pageTitle2
+    {
+        font-size: 20px;
+        margin-left:10%;
+        margin-right:10%;
+        width:100%;
+        text-align: center;
+    }
+    
+
+    .button
+    {
+        width: 60vw;
+        margin-bottom: 30px;
+    }
+
+    .form
+    {
+        width: 60vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    .locationDetails
+    {
+        font-size: 16px;
+    }
+
+    .discription
+    {
+        width: 80vw;
+    }
+
+    .AboutUsLocationDiscription
+    {
+        flex-direction: column;
+        width:100%;
+    }
+
+    .Pic
+    {
+        width: 90px;
+        height: 90px;
+        hover:
+        
+    }
+
+
+    .NameIndividual
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 32%;
+        height: 40%;
+        position: unset;
+        
+    }
+
+    .Name
+    {
+
+        color: black;
+        font-size: 11px;
+        text-align: center;
+        position: unset;
+        transform: translate(0%,0%);
+        width:90px;
+        padding-top: 10px;
+    }
+
+    .Location
+    {
+        width:100%;
+        align-items: center;
+        text-align:center;
+        padding-left: 15px;
+    }
+
+    .map
+    {
+        height: 200px;
+        width:90%;
+    }
+
+    .locationDetails
+    {
+        width:100%;
+        text-align: center;
+        
+    }
+
+    .AboutUsDiscription1
+    {
+    width: 100%;
+    
+    }
+
+    .aboutUsH3
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .discription
+    {
+        margin-top:15px;
+        width: 100%;
+        text-align: center;
+        padding-left:0px;
+    }
+
+    .locationDetailsH3
+    {
+        font-size:24px;
+    }
+    
+    .buttons-div {
+        flex-direction: column;
+      }
+  }
+
+  
+
+
+
+

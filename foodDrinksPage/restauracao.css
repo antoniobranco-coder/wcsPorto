@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*navbar*/
+
+.navbar {
+    background: #0E2F7E;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .buttons {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .buttons:hover  {
+    background: cornflowerblue;
+    transition: .5s;
+  }
+
+
+/* .navbar {
+    background: darkblue;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 0 5px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background: cornflowerblue;
+    transition: .5s;
+}
+.restlife{
+    background-color: cornflowerblue;
+} */
+
+/* Restaurants */
+
+#restaurants{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    margin: auto;
+}
+
+.restaurants{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.item1, .item2, .item3{
+    margin: 10px;
+    width: 320px;
+    height: 460px;
+    border: solid 5px #0E2F7E;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.item1:hover, .item2:hover, .item3:hover{
+    border: solid 4px rgb(223, 161, 5);
+}
+
+.image1, .image2, .image3{
+    width: 350px;
+    height: 250px;
+}
+
+.item1txt, .item2txt, .item3txt {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.restaurants-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/*Francesinhas*/
+
+#francesinhas{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.francesinhas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.fr1, .fr2, .fr3{
+    margin: 10px;
+    width: 320px;
+    height: 460px;
+    border: solid 5px #0E2F7E;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.fr1:hover, .fr2:hover, .fr3:hover{
+    border: solid 4px rgb(223, 161, 5)
+}
+
+.frimage1, .frimage2, .frimage3{
+    width: 350px;
+    height: 250px;
+}
+.fr1txt, .fr2txt, .fr3txt{
+    font-size: 15px;
+    padding: 10px;
+}
+/* Drinks*/
+
+#drinks{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.drinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.drinks1, .drinks2, .drinks3{
+    margin: 10px;
+    width: 320px;
+    height: 460px;
+    border: solid 5px #0E2F7E;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.drinks1:hover, .drinks2:hover, .drinks3:hover{
+    border: solid 4px rgb(223, 161, 5);
+}
+
+.image4, .image5, .image6{
+    width: 350px;
+    height: 250px;
+}
+
+.drinks1txt, .drinks2txt, .drinks3txt{
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* Recomendations */ 
+
+.recomendations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rec1, .rec2, .rec3 {
+    margin: 10px;
+    width: 320px;
+    height: 460px;
+    border: solid 5px #0E2F7E;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.rec1:hover, .rec2:hover, .rec3:hover{
+    border: solid 4px rgb(223, 161, 5);
+}
+
+#recomendations{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0E2F7E;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.rec1txt, .rec2txt, .rec3txt{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.image7, .image8, .image9{
+    width: 350px;
+    height: 250px;
+}
+
+/* Footer */
+
+.footer-section {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+    background-color: #0E2F7E;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .foot-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 20px 5px 10px;
+  }
+  
+  .foot-note {
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .foot-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .foot-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+  }
+ 
+  /*Placelink && line && Pagetitle*/
+  
+  
+@media (max-width: 760px) {
+    .banner-text {
+      font-size: 30px;
+    }
+  
+    .buttons-div {
+      flex-direction: column;
+    }
+}
+
+
+.placelink{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.line {
+    border: 2px solid rgb(242, 242, 242);
+    width: 75%;
+    margin: auto;
+}
+
+#foodanddrinks {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: rgb(223, 161, 5);
+    padding-top: 40px;
+}
